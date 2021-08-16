@@ -57,6 +57,14 @@ body {
   padding: 0 10px;
 }
 
+.title {
+  font-family: 'spaceagecyrillic';
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 400;
+  padding: 100px 0;
+}
+
 .header {
   background-image: url(../images/header-bg.jpg);
   min-height: 100vh;
@@ -159,4 +167,96 @@ body {
 
 .header__description-text + .header__description-text {
   margin-left: 52px;  
+}
+
+.about {
+  background-image: url(../images/about-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about__item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 150px;
+}
+
+.about__img {
+  max-width: 100%;
+}
+
+.about__content {
+  width: 600px;
+}
+
+.about__content-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.about__content-subtitle {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #036cca;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.about__content-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.about__content-text p {
+  width: 165px;
+}
+
+.about__table {
+  margin-bottom: 50px;
+}
+
+.about__table-tr {
+  border: 1px solid #fff;
+  border-left: none;
+  border-right: none;
+}
+
+.about__table-tr + .about__table-tr {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about__table-td {
+  padding: 10px 30px 10px 0;
+}
+
+.about__table-td span {
+  font-size: 14px;
+  line-height: 17px;
+  display: block;
+}
+
+
+.hurry {
+  background-image: url(/images/Group13.jpg);
+  min-height: 914px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  background-image: url(/images/footer-bg.jpg);
+  min-height: 434px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
